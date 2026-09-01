@@ -25,7 +25,7 @@ Node.js 18以上。依存パッケージなし。
 ## インストール
 
 ```bash
-npm install -g claimguard
+npm install -g @nanami_773/claimguard
 ```
 
 または `npx claimguard <command>` でそのまま実行できる。
@@ -45,12 +45,12 @@ claimguard init
     "PostToolUse": [
       {
         "matcher": "*",
-        "hooks": [{ "type": "command", "command": "npx claimguard hook post-tool-use" }]
+        "hooks": [{ "type": "command", "command": "npx @nanami_773/claimguard hook post-tool-use" }]
       }
     ],
     "SubagentStop": [
       {
-        "hooks": [{ "type": "command", "command": "npx claimguard hook subagent-stop" }]
+        "hooks": [{ "type": "command", "command": "npx @nanami_773/claimguard hook subagent-stop" }]
       }
     ]
   }

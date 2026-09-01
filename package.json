@@ -1,5 +1,5 @@
 {
-  "name": "claimguard",
+  "name": "@nanami_773/claimguard",
   "version": "0.1.0",
   "description": "Claude Code のサブエージェントが「完了しました」と報告した内容を、実際のツール実行ログと機械的に突き合わせ、食い違いを検知する CLI。",
   "type": "module",
