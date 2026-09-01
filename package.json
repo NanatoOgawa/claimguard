@@ -1,0 +1,29 @@
+{
+  "name": "claimguard",
+  "version": "0.1.0",
+  "description": "Claude Code のサブエージェントが「完了しました」と報告した内容を、実際のツール実行ログと機械的に突き合わせ、食い違いを検知する CLI。",
+  "type": "module",
+  "bin": {
+    "claimguard": "bin/claimguard.mjs"
+  },
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "subagent",
+    "hooks",
+    "verification",
+    "audit"
+  ]
+}
